@@ -1078,3 +1078,11 @@ Stack trace:
 REQUEST_URI=/admin/setting
 HTTP_REFERER=http://yii.loc/admin/comment
 ---
+2013/12/06 12:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\php\yii.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\php\yii.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\php\yii.loc\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\php\yii.loc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
